@@ -5,6 +5,11 @@ have a some css heres
 List of startToDeploy:
 
 - [tailwindcss](#tailwindcss)
+- [flex](#flex)
+- [tailwindcss](#tailwindcss)
+- [tailwindcss](#tailwindcss)
+- [tailwindcss](#tailwindcss)
+- [tailwindcss](#tailwindcss)
 
 
 ### tailwindcss
@@ -18,6 +23,22 @@ List of startToDeploy:
   ],
 
 ```
+
+### flex
+
+```css
+.course-itmes {
+    display: flex;
+    flex: 0 0 50%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+   
+
+```
+
+
 
 
 
