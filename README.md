@@ -4,6 +4,7 @@ have a some css heres
 
 List of startToDeploy:
 
+- [grid](#grid)
 - [tailwindcss](#tailwindcss)
 - [flex](#flex)
 - [tailwindcss](#tailwindcss)
@@ -11,6 +12,36 @@ List of startToDeploy:
 - [tailwindcss](#tailwindcss)
 - [tailwindcss](#tailwindcss)
 
+
+### grid
+
+```css
+.Shop-area {
+    display: flex;
+    position: relative;
+}
+
+.products-area {
+    width: 72%;
+    margin: 50px 0;
+    display: grid;
+    gap: 50px 0;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.cart-area {
+    width: 28%;
+    max-width: 430px;
+    padding: 20px;
+    border-left: 1px solid black;
+    background: #ddd;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+}
+
+```
 
 ### tailwindcss
 
