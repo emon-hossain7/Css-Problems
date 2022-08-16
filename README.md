@@ -46,12 +46,42 @@ List of startToDeploy:
 ### tailwindcss
 
 ```css
-  content: [
+// step 1 
+    npm install -D tailwindcss
+    npx tailwindcss init
+
+//step 2
+    content: [
     "./src/**/*.{html,js}",
     './components/**/*.{html,js}',
     './pages/**/*.{html,js}',
     './index.html',
-  ],
+    ],
+
+//step 3 (create src/input.css and paste)
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+//step 4
+    npm init -y
+//step 5
+    npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+//step -6
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+// replace
+    "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    },
+//step -7
+// use in index.html file
+    <link href="/dist/output.css" rel="stylesheet">
+//step - 8
+    <h1 class="text-3xl font-bold underline">
+    Hello world!
+    </h1>
 
 ```
 
