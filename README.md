@@ -4,6 +4,7 @@ have a some css heres
 
 List of startToDeploy:
 
+- [css](#css)
 - [grid](#grid)
 - [tailwindcss](#tailwindcss)
 - [flex](#flex)
@@ -13,6 +14,18 @@ List of startToDeploy:
 - [tailwindcss](#tailwindcss)
 
 
+#css
+
+```css
+
+.carousel-img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+
+```
+        
 ### grid
 
 ```css
